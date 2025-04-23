@@ -1,4 +1,3 @@
-
 import { useState, useRef, useEffect } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { generateTextResponse, generateImage, analyzeFile, MessageType } from "@/lib/openai";
@@ -119,7 +118,7 @@ const Index = () => {
         {/* Левая панель с чатом */}
         <div className="flex-1 flex flex-col min-w-0 border-r dark:border-gray-700">
           <Tabs value={activeTab} onValueChange={setActiveTab} className="flex flex-col h-full">
-            <div className="border-b dark:border-gray-700 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm sticky top-[73px] z-10">
+            <div className="border-b dark:border-gray-700 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm sticky top-0 z-10">
               <TabsList className="w-full justify-start h-12 px-2 bg-transparent">
                 <TabsTrigger value="chat" className="data-[state=active]:bg-indigo-50 dark:data-[state=active]:bg-gray-700">
                   Чат

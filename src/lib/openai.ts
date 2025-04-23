@@ -1,6 +1,5 @@
-
 // Интеграция с OpenAI API
-const OPENAI_API_KEY = import.meta.env.VITE_OPENAI_API_KEY || '';
+const OPENAI_API_KEY = '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';
 
 // Типы для запросов и ответов
 interface OpenAITextResponse {

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { SendHorizontal, ImageIcon, FileText, X } from "lucide-react";
@@ -91,7 +90,7 @@ const MessageInput = ({
           )}
         </Button>
       </div>
-      <div className="flex mt-3 text-xs text-gray-500 dark:text-gray-400 gap-4 justify-center md:justify-start">
+      <div className="flex mt-3 text-xs text-gray-500 dark:text-gray-400 gap-4 justify-start flex-wrap">
         <button 
           className={`flex items-center gap-1 transition-colors ${
             isImageGen 
